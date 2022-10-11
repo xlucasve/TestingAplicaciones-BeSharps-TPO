@@ -1,6 +1,9 @@
-# TestingAplicaciones-BeSharps-TPO
+# Testing de Aplicaciones - Trabajo Practico Obligatorio
 
-Integrantes del grupo:
+## Nombre del Equipo:
+- BeSharps
+
+### Integrantes del grupo:
 - Pinque, Tadeo
 - Arguello, Brian Elias
 - Krivitzki, Matias
