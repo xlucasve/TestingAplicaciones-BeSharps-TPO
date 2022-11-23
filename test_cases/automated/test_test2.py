@@ -27,4 +27,7 @@ class TestTest2():
     self.driver.find_element(By.NAME, "password").click()
     self.driver.find_element(By.NAME, "password").send_keys("sample2")
     self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").click()
-  
+
+    mensajeError = self.driver.find_element(By.XPATH, "/html/body/p").text
+
+    assert "Invalid UserId / Password" in mensajeError
